@@ -1,3 +1,4 @@
+/* register */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@
 
 }
 
+/* video first page */
 .form-box{
     width: 90%;
     max-width: 35vw;
@@ -72,4 +74,13 @@ input{
       /* width = 100 / (9 / 16) = 177.777777 */
       width: 177.78vh;
     }
+  }
+
+  .cloud-overlay{
+    z-index: 2147483647;
+    position: absolute;
+    display:block;
+    width:100vw; 
+    height:100vh;
+    object-fit: cover;
   }
