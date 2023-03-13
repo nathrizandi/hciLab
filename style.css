@@ -10,10 +10,45 @@
     width: 100vw;
     height: 100vh;
     background-image: url(/assets/register.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 
 }
 
 /* video first page */
+.form-box{
+    width: 90%;
+    max-width: 400px;
+    position: absolute;
+    justify-content: center;
+    top: 1%;
+    left: 68%;
+    transform: translate(-50%,50%);
+    background: none;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center; 
+
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: 0;
+    outline: 0;
+    padding: 10px 11px;
+}
+
+
+
 .video-container{
     width: 100vw;
     height: 100vh;
