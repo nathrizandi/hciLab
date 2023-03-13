@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/* register */
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +12,8 @@
     background-image: url(/assets/register.png);
 
 }
-=======
+
+/* video first page */
 .video-container{
     width: 100vw;
     height: 100vh;
@@ -40,4 +41,12 @@
       width: 177.78vh;
     }
   }
->>>>>>> 961e0a338fd114996d5eb1278f7b81550a2e3f19
+
+  .cloud-overlay{
+    z-index: 2147483647;
+    position: absolute;
+    display:block;
+    width:100vw; 
+    height:100vh;
+    object-fit: cover;
+  }
