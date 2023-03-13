@@ -17,32 +17,31 @@
 
 .form-box{
     width: 90%;
-    max-width: 400px;
+    max-width: 35vw;
     position: absolute;
     justify-content: center;
-    top: 1%;
+    top: -7%;
     left: 68%;
     transform: translate(-50%,50%);
     background: none;
-    padding: 50px 60px 70px;
+    padding: 3vw 6vh 7vw 8vh;
     text-align: center;
 }
 
 .input-field{
     background: #eaeaea;
-    margin: 10px 0;
-    border-radius: 3px;
+    margin: 1vw 0;
+    border-radius: 0.3vw;
     display: flex;
     align-items: center; 
 
 }
-
 input{
     width: 100%;
     background: none;
     border: 0;
     outline: 0;
-    padding: 10px 11px;
+    padding: 1vw 1vh;
 }
 
 
