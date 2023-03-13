@@ -16,7 +16,6 @@
 
 }
 
-/* video first page */
 .form-box{
     width: 90%;
     max-width: 35vw;
@@ -46,8 +45,15 @@ input{
     padding: 1vw 1vh;
 }
 
+.check-box{
+  display: inline-flex;
+  position: absolute;
+  left: -40%;
+  align-items: center; 
+}
 
 
+/* video first page */
 .video-container{
     width: 100vw;
     height: 100vh;
