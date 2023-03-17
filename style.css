@@ -54,7 +54,6 @@ input{
     padding: 1vw 1vh;
 }
 
-<<<<<<< Updated upstream
 .check-box{
   display: inline-flex;
   position: absolute;
@@ -75,22 +74,22 @@ span{
 }
 
 /* login */
-.container1{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/assets/login.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+.container_login{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/login.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .form-box1{
-  width: 90%;
+  width: 70%;
   max-width: 35vw;
   position: absolute;
   justify-content: center;
-  top: 6%;
+  /* top: 6%; */
   right: 35%;
   transform: translate(-50%,50%);
   background: none;
@@ -142,8 +141,6 @@ span{
 
 
 /* video first page */
-=======
->>>>>>> Stashed changes
 .video-container{
     width: 100%;
     height: 100vh;
