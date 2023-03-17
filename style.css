@@ -46,6 +46,7 @@
 
 }
 input{
+    font-family: tahoma;
     width: 100%;
     background: none;
     border: 0;
@@ -59,6 +60,13 @@ input{
   left: -38%;
   margin-top: 1%;
   align-items: center; 
+}
+.button1{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: -35%;
+  left: 105%;
 }
 span{
   font-size: 90%;
@@ -97,13 +105,35 @@ span{
   align-items: center; 
 
 }
-/* input{
-  width: 100%;
-  background: none;
-  border: 0;
-  outline: 0;
-  padding: 1vw 1vh;
-} */
+
+.button{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: -55%;
+  right: 100%;
+  
+}
+.button_close{
+  width: 150%;
+  height: 200%;
+  background-color: transparent;
+  border: none;
+  font-size: 350%;
+  font-weight: bold;
+  color: #166379;
+}
+
+.login_button{
+  position: absolute;
+  padding: 6% 5%;
+  margin:0.5cm 0;
+  background: #11637A;
+  color: white;
+  font-weight: bold;
+
+}
+
 
 
 
