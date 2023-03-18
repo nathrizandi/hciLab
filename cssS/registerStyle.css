@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/register.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.form-box{
+    width: 90%;
+    max-width: 35vw;
+    position: absolute;
+    justify-content: center;
+    top: -7%;
+    left: 66%;
+    transform: translate(-50%,50%);
+    background: none;
+    padding: 3vw 6vh 7vw 8vh;
+    text-align: center;
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 1vw 0;
+    border-radius: 0.3vw;
+    display: flex;
+    align-items: center; 
+
+}
+input{
+    font-family: tahoma;
+    width: 100%;
+    background: none;
+    border: 0;
+    outline: 0;
+    padding: 1vw 1vh;
+}
+
+.check-box{
+  display: inline-flex;
+  position: absolute;
+  left: -38%;
+  margin-top: 1%;
+  align-items: center; 
+}
+.button1{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: -35%;
+  left: 105%;
+}
+span{
+  font-size: 90%;
+  font-family: tahoma;
+}
