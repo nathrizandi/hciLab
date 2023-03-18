@@ -1,3 +1,15 @@
+@font-face {
+    font-family: genshin;
+    src: url('assets/Tahoma Regular font.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: genshin;
+}
+
 .container{
     display: flex;
     width: 100vw;
