@@ -10,18 +10,18 @@
     font-family: genshin;
 }
 
-.container_login{
-    position: relative;
+.container_login{    
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 110vw;
+    height: 110vh;
     background-image: url("assets/login2.png"); 
     background-position: center;
     background-size: cover;
-  }
+    position: relative;
+}
   
   
-  .form-box1{
+.form-box1{
     width: 90%;
     max-width: 35vw;
     position: absolute;
@@ -32,9 +32,9 @@
     background: none;
     padding: 3vw 6vh 7vw 8vh;
     text-align: center;
-  }
+}
   
-  .input-field1{
+.input-field1{
     background: #eaeaea;
     top: 5%;
     margin: 1vw 0;
@@ -42,17 +42,27 @@
     display: flex;
     align-items: center; 
   
-  }
+}
+
+input{
+    font-family: tahoma;
+    width: 100%;
+    background: none;
+    border: 0;
+    outline: 0;
+    padding: 1vw 1vh;
+}
   
-  .button{
+.button{
     background-color: transparent;
     border: none;
     position: absolute;
     top: 3%;
     right: 88%;
     
-  }
-  .button_close{
+}
+  
+.button_close{
     width: 150%;
     height: 200%;
     background-color: transparent;
@@ -60,9 +70,9 @@
     font-size: 350%;
     font-weight: bold;
     color: #166379;
-  }
+}
   
-  .login_button{
+/* .login_button{
     position: absolute;
     padding: 2% 7%;
     margin:4% 0;
@@ -70,4 +80,4 @@
     color: white;
     left: 42%
     
-  }
+} */
