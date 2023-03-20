@@ -9,3 +9,54 @@
     box-sizing: border-box;
     font-family: genshin;
 }
+
+.navbar{
+  
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-rows: 10fr 10fr 10fr 2fr;
+    grid-template-areas:
+    "jumbotron jumbotron jumbotron"
+    "newCharacter newCharacter newCharacter"
+    "update update update"
+    "footer footer footer"
+    ;
+}
+
+.jumbotron{
+    grid-area: jumbotron;
+    background-image: url(../assets/_extras/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-content {
+    transform: translateY(200px);
+}
+
+.newCharacter{
+    grid-area: newCharacter;
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.update{
+    grid-area: update;
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+footer{
+    grid-area: footer;
+    background-color: pink;
+}
