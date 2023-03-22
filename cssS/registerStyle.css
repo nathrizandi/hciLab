@@ -66,17 +66,10 @@ input{
   color: red;
 }
 
-.sucess i.fa-check-circle{
+.success i.fa-check-circle{
   visibility: visible;
   color: green;
 }
-
-.input-field .error{
-  color: #ff3860;
-  font-size: 9px;
-  height: 13px;
-}
- 
 
 .check-box{
   display: inline-flex;
@@ -110,10 +103,10 @@ span{
 }
 
 .btn{
-  position:fixed;
+  position:absolute;
   display: flex;
-  top: 83.5%;
-  left: 43%;
+  top: 85.5%;
+  left: 42%;
   width: 20%;
   height: 8%;
   font-family: tahoma_genshin;
@@ -133,13 +126,15 @@ span{
                  0 0 160px #fff;
 }
 
-
-/* .button_register{
-  position: absolute;
+@media screen and (max-width: 376) {
+  .container{
+    width: 100vw;
+  }
+  .input-field{
+    width: 50%;
+    position: relative;
+    top: 20%;
+  }
 }
 
-img{
-  top: 10%;
-  width: 130%;
-  height: 80%;
-} */
+
