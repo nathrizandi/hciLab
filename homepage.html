@@ -1,35 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssS/homepageStyle.css">
+
     <title>Homepage</title>
-    <link rel="stylesheet" href="cssS/homepageStyle.css">
-    <link rel="shortcut icon" href="assets/icon/home.png">
 </head>
+
 <body>
-    <div class="navbar">
-        <nav>
-            <p>r</p>
-            <p>t</p>
-        </nav>
+    <div class="home-background" style="background-image: url('./assets/images/homepage.png');"></div>
+
+    <div class="flex-row justify-between top-layer py-sm px-md">
+        <div>
+            <img src="./assets/images/logo.png" alt="">
+        </div>
+        <div class="flex-row link gap-x-lg text-md">
+            <a href="./homepage.html" class="selected">home</a>
+            <a href="./character.html">characters</a>
+            <a href="./map.html">maps - tevyat</a>
+            <a href="./aboutus.html">about game</a>
+            <a href="./index.html">log out</a>
+        </div>
+        <div>
+            <button class="text-md">Download</button>
+        </div>
     </div>
-    <div class="container">
-        <div class="jumbotron">
-            <div class="jumbotron-content">
-                <p>jumbotron</p>
+
+    <div style="margin-top: 35%; margin-bottom: 35%;"></div>
+
+    <div class="jumbotron top-layer"></div>
+
+    <div class="flex-col top-layer pt-lg">
+        <div>
+            <p>Released on Multiple Platforms - Download Now!</p>
+        </div>
+        <div class="flex-row justify-center gap-x-lg">
+            <div class="badge flex-col justify-center">
+                <img src="./assets/images/playstation.png" alt="">
+            </div>
+            <div class="badge flex-col justify-center">
+                <img src="./assets/images/appstore.png" alt="">
+            </div>
+            <div class="badge flex-col justify-center">
+                <img src="./assets/images/gplay.png" alt="">
+            </div>
+            <div class="badge flex-col justify-center">
+                <img src="./assets/images/windows.png" alt="">
             </div>
         </div>
-        <div class="newCharacter">
-            <p>new newCharacter</p>
-        </div>
-        <div class="update">
-            <p>update</p>
-        </div>
-        <footer>
-            <p>footer</p>
-        </footer>
     </div>
-    </body>
+
+    <div id="toggleDehya">
+        <div class="home-background" style="background-image: url('./assets/images/homepage_2.png');"></div>
+    
+        <div class="flex-row top-layer">
+            <div class="pt-2xl">
+                <img src="./assets/images/dehya.png" alt="">
+            </div>
+            <div class="flex-col pr-md">
+                <div class="flex-row">
+                    <div>
+                        <h1>dehya</h1>
+                    </div>
+                    <div>
+                        <img src="./assets/images/pyro.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h5>A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.</h5>
+                </div>
+                <div class="flex-row">
+                    <div id="dehya_icon">
+                        <img src="./assets/images/dehya_icon.png" alt="" style="opacity: 1.0;">
+                    </div>
+                    <div id="mika_icon">
+                        <img src="./assets/images/mika_icon.png" alt="" style="opacity: 0.5;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron top-layer"></div>
+</body>
+
 </html>
+
+<script type="text/javascript">
+    var dehya_icon = document.getElementById("#dehya_icon");
+    var mika_icon = document.getElementById("#mika_icon");
+
+
+
+
+</script>

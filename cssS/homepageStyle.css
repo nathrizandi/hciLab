@@ -1,62 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
-    font-family: genshin;
-    src: url('assets/Tahoma Regular font.ttf');
+    font-family: 'HYWenHei 85W';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HYWenHei 85W'), url('../assets/zhcn.woff') format('woff');
 }
 
-*{
+html, body {
+    overflow-y: auto;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: genshin;
+    font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
-  
-    background-color: black;
-    position: fixed;
-    width: 100%;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 2fr 4fr 2fr;
-    grid-template-rows: 10fr 10fr 10fr 2fr;
-    grid-template-areas:
-    "jumbotron jumbotron jumbotron"
-    "newCharacter newCharacter newCharacter"
-    "update update update"
-    "footer footer footer"
-    ;
-}
-
-.jumbotron{
-    grid-area: jumbotron;
-    background-image: url(../assets/_extras/1.png);
-    background-repeat: no-repeat;
+.home-background {
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.flex-col {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
-.jumbotron-content {
-    transform: translateY(200px);
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
 }
 
-.newCharacter{
-    grid-area: newCharacter;
-    background-color: aquamarine;
-    height: 100vh;
+.justify-between {
+    justify-content: space-between;
 }
 
-.update{
-    grid-area: update;
-    background-color: blueviolet;
-    height: 100vh;
+.justify-center {
+    justify-content: center;
 }
 
-footer{
-    grid-area: footer;
-    background-color: pink;
+.top-layer {
+    z-index: 99;
+}
+
+.gap-x-sm {
+    column-gap: 32px;
+}
+
+.gap-x-md {
+    column-gap: 96px;
+}
+
+.gap-x-lg {
+    column-gap: 124px;
+}
+
+.link {
+    text-transform: uppercase;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.link .selected {
+    text-shadow: 0px 0px 6px #ffffff;
+}
+
+.text-md {
+    font-size: 14pt;
+}
+
+.px-md {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.px-xl {
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.py-sm {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+button {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'HYWenHei 85W';
+    background-color: black;
+}
+
+.badge {
+    background-color: #2A8B9A;
+    border: 2px solid #0C566B;
+    width: 15vw;
+    height: 5.5vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.badge:before {
+    background: none;
+    border: 2px solid #E9FBFC;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    pointer-events: none;
+}
+
+.relative {
+    position: relative;
+}
+
+p {
+    color: #5BAAB7;
+}
+
+.jumbotron {
+    width: 100vw;
+    height: 40vh;
+    background-color: #ffffff;
+    position: absolute;
+    filter: blur(30px);
+}
+
+.pt-lg {
+    padding-top: 100px;
+}
+
+.pt-2xl {
+    padding-top: 210px;
+}
+
+h5 {
+    font-size: 18pt;
+    color: white;
+    font-weight: 300;
+}
+
+.pr-md {
+    padding-right: 60px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100pt;
+    text-shadow: 0px 0px 40px #D37F63;
+    color: #ffffff;
 }
