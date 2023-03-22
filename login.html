@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="cssS/loginStyle.css">
-    <script src="https://kit.fontawesome.com/fcaf3d08dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
     <div class="container_login">
-        <form action="">
+        <form id = "login-form" action="homepage.html" method="get">
             <div class="form-box1">
-                <div class="input-group1">
-                    <div class="input-field1">
-                        <input type="email" placeholder="Email">
+                    <div class="input-field1 ">
+                        <input type="text" placeholder="Email (Input valid email (contain @gmail.com))" id="email1">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
                     </div>
-                    <div class="input-field1">
-                        <input type="password" placeholder="Password">
+                    <div class="input-field1 ">
+                        <input type="password" placeholder="Password (Between 8 - 20 character)" id="password1">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
                     </div>
-                    <a href="">
-                        <h1>Log In</h1>
-                    </a>
-                </div>
             </div>
+            <a href="homepage.html">
             <div class="button">
                 <button class="button_close" type="button">&times;</button>    
             </div>
+            </a>
+            <button class="btn" type ="submit">Login</button>
         </form>
     </div>
-    
+    <script src="jsS/login.js"></script>
 </body>
 </html>
