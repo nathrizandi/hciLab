@@ -6,8 +6,6 @@ const passwordInput = document.getElementById('password');
 const checkboxInput = document.getElementById('check-box');
 
 
-// register_btn.addEventListener("click",)
-
 form.addEventListener('submit', e =>{
     e.preventDefault();
     validateInputs();
@@ -33,20 +31,16 @@ function isFormValid(){
 
 const setError = (element) =>{
     const inputControl = element.parentElement;
-    // const errorDisplay = inputControl.querySelector('.error');
-
-    // errorDisplay.innerText = message;
+   
     inputControl.classList.add('error');
-    inputControl.classList.remove('sucess');
+    inputControl.classList.remove('success');
  
 }
 
 const setSuccess = (element) =>{
     const inputControl = element.parentElement;
-    // const errorDisplay = inputControl.querySelector('.error');
-
-    // errorDisplay.innerText = '';
-    inputControl.classList.add('sucess');
+    
+    inputControl.classList.add('success');
     inputControl.classList.remove('error');
  
 }
@@ -64,8 +58,6 @@ const validateInputs = () =>{
         }
         return str.charAt(0).toUpperCase() === str.charAt(0);
     }
-
-    // console.log(firstIsUppercase(nameValue));
 
     if(nameValue === ''){
         setError(nameInput);
@@ -90,7 +82,7 @@ const validateInputs = () =>{
         setError(emailInput);
     }else if(at<1||dot<at+2||dot+2 >=emailValue.length){
         setError(emailInput);
-    }else if(!emailValue.value.match(gmail)){
+    }else if(emailValue.includes("gmail",0) == false){
         setError(emailInput);
     }else{
         setSuccess(emailInput);
