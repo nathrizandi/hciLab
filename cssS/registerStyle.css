@@ -1,20 +1,20 @@
 @font-face {
-    font-family: genshin;
-    src: url('assets/Tahoma Regular font.ttf');
+    font-family: tahoma_genshin;
+    src: url('../assets/Tahoma Regular font.ttf');
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: genshin;
+    font-family: tahoma_genshin;
 }
 
 .container{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url("assets/register2.png");
+    background-image: url('../assets/register.png');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -26,7 +26,7 @@
     max-width: 35vw;
     position: absolute;
     justify-content: center;
-    top: -7%;
+    top: -6%;
     left: 66%;
     transform: translate(-50%,50%);
     background: none;
@@ -35,21 +35,48 @@
 }
 
 .input-field{
-    background: #eaeaea;
-    margin: 1vw 0;
-    border-radius: 0.3vw;
-    display: flex;
-    align-items: center; 
+  position: relative;
+  background: #eaeaea;
+  margin: 1vw 0;
+  border-radius: 0.3vw;
+  display: flex;
+  align-items: center; 
 
 }
+
 input{
-    font-family: tahoma;
-    width: 100%;
-    background: none;
-    border: 0;
-    outline: 0;
-    padding: 1vw 1vh;
+  display: block;
+  font-family: tahoma;
+  width: 100%;
+  background: none;
+  border: 0;
+  outline: 0;
+  padding: 1vw 1vh;
 }
+
+.input-field i{
+  position: absolute;
+  left: 90%;
+  visibility: hidden;
+
+}
+
+.error i.fa-exclamation-circle{
+  visibility: visible;
+  color: red;
+}
+
+.sucess i.fa-check-circle{
+  visibility: visible;
+  color: green;
+}
+
+.input-field .error{
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+ 
 
 .check-box{
   display: inline-flex;
@@ -58,14 +85,61 @@ input{
   margin-top: 1%;
   align-items: center; 
 }
+
+.button_close{
+  width: 140%;
+  height: 180%;
+  background-color: transparent;
+  border: none;
+  font-size: 250%;
+  font-weight: bold;
+  color: #166379;
+}
+
 .button1{
   background-color: transparent;
   border: none;
   position: absolute;
-  top: -35%;
-  left: 105%;
+  top: -34%;
+  left: 107%;
 }
+
 span{
   font-size: 90%;
-  font-family: tahoma;
+  font-family: tahoma_genshin;
 }
+
+.btn{
+  position:fixed;
+  display: flex;
+  top: 83.5%;
+  left: 43%;
+  width: 20%;
+  height: 8%;
+  font-family: tahoma_genshin;
+  font-size: larger;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.btn:hover{
+  color: white;
+    text-shadow: 0 0 10px  #fff,
+                 0 0 20px  #fff,
+                 0 0 40px  #fff,
+                 0 0 80px  #fff,
+                 0 0 120px  #fff,
+                 0 0 160px #fff;
+}
+
+
+/* .button_register{
+  position: absolute;
+}
+
+img{
+  top: 10%;
+  width: 130%;
+  height: 80%;
+} */
