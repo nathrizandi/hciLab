@@ -1,25 +1,25 @@
 @font-face {
-    font-family: genshin;
-    src: url('assets/Tahoma Regular font.ttf');
+    font-family: tahoma_genshin;
+    src: url('/assets/Tahoma\ Regular\ font.ttf')
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: genshin;
+    font-family: tahoma_genshin;
 }
 
-.container_login{    
+.container_login{
+    position: relative;
     display: flex;
-    width: 110vw;
-    height: 110vh;
-    background-image: url("assets/login2.png"); 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/login.png');
     background-position: center;
     background-size: cover;
-    position: relative;
 }
-  
+
   
 .form-box1{
     width: 90%;
@@ -63,15 +63,35 @@ input{
 }
   
 .button_close{
-    width: 150%;
-    height: 200%;
+    width: 140%;
+    height: 180%;
     background-color: transparent;
     border: none;
-    font-size: 350%;
+    font-size: 250%;
     font-weight: bold;
     color: #166379;
 }
-  
+
+h1{
+    position: absolute;
+    top: 89%;
+    left: 52%;
+    color: #eaeaea;
+    font-size: large;
+    cursor: default;
+    transition: 0.5s;
+}
+
+h1:hover{
+    color: white;
+    text-shadow: 0 0 10px  #fff,
+                 0 0 20px  #fff,
+                 0 0 40px  #fff,
+                 0 0 80px  #fff,
+                 0 0 120px  #fff,
+                 0 0 160px #fff;
+}
+
 /* .login_button{
     position: absolute;
     padding: 2% 7%;
