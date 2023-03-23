@@ -46,8 +46,7 @@ h1{
     height: 3.6%;
     width: 3.6%;
     font-size: 50px;
-    color: black;
-    /* D9D9D9 */
+    color: #D9D9D9;
     transition: all 0.3s linear;
     cursor: pointer;
     z-index: 100;
