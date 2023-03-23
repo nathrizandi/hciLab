@@ -1,13 +1,15 @@
 @font-face {
-    font-family: tahoma_genshin;
-    src: url('../assets/Tahoma\ Regular\ font.ttf')
+    font-family: HYWenHei 85W;
+    font-style: normal;
+    font-weight: normal;
+    src: local('HYWenHei 85W'), url('../assets/zhcn.woff') format('woff');
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: tahoma_genshin;
+    font-family: HYWenHei 85W;
 }
 
 body{
@@ -22,7 +24,7 @@ body{
 
 h1{
     color: #ffff;
-    font-size:50px;
+    font-size:55px;
     position: absolute;
     display: flex;
     top: 15%;
@@ -52,9 +54,6 @@ h1{
     z-index: 100;
 }
 
-i.button:active{
-    transform: scale(0.94) translateY(-50%);
-}
 
 i#prev{
     
