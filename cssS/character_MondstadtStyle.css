@@ -1,0 +1,18 @@
+@font-face {
+    font-family: tahoma_genshin;
+    src: url('/assets/Tahoma\ Regular\ font.ttf')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:tahoma_genshin;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/Mondstadt/mondstadt.png);
+}
