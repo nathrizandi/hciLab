@@ -12,7 +12,36 @@
 
 .container{
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../assets/Mondstadt/mondstadt.png);
+    /* width: 100%;
+    height: 100vh; */
+    /* background-image: url('../assets/Mondstadt/mondstadtbg.png'); */
+    /* position: absolute; */
+    justify-content: center;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    left: -10%;
 }
+
+.background{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button_character{
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+}
+
+.Lisa img{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
