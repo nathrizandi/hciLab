@@ -45,7 +45,7 @@
 }
 
 input{
-  display: block;
+  display: flex;
   font-family: tahoma;
   width: 100%;
   background: none;
