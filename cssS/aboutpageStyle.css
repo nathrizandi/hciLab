@@ -28,18 +28,9 @@ h1{
     position: absolute;
     display: flex;
     top: 15%;
-    /* text-shadow: 2px 2px 8px gray; */
+    
 }
-/* .container{
-    display: flex;
-    max-width:650px;
-    width: 100%;
-    height: 400px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-} */
+
 
 .container i.button{
     position: absolute;
@@ -66,8 +57,6 @@ i#next{
 
 
 .image-container{
-    /* background-color: blueviolet; */
-    /* position: absolute; */
     display: flex;
     position: absolute;
     top: 33%;
@@ -90,8 +79,69 @@ i#next{
 .image img{
     height: 105%;
     width: 100%;
-    /* object-fit: cover; */
-   
+}
+
+@media screen and (max-width: 1026px){
+    .image-container{
+        top: 35%;
+        left: 20%;
+        width: 310%;
+        max-width: 620px;
+        height: 260px;
+    }
+
+    i#prev{
+        top: 60%;
+        left: 17.5%;
+    }
+
+    i#next{
+        top: 60%;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .image-container{
+        top: 35%;
+        left: 20%;
+        width: 200%;
+        max-width: 420px;
+        height: 235px;
+    }
+
+    i#prev{
+        top: 55%;
+        left: 15%;
+    }
+
+    i#next{
+        top: 56%;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .image-container{
+        top: 40%;
+        left: 20%;
+        width: 125%;
+        max-width: 240px;
+        height: 115px;
+    }
+
+    i#prev{
+        font-size: 220%;
+        top: 50%;
+    }
+
+    i#next{
+        font-size: 220%;
+        top: 50%;
+        right: 18%;
+    }
+
+
 }
 
 
