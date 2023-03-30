@@ -1,6 +1,6 @@
 @font-face {
     font-family: tahoma_genshin;
-    src: url('/assets/Tahoma\ Regular\ font.ttf')
+    src: url('https://github.com/nathrizandi/hciLab/blob/main/assets/Tahoma\ Regular\ font.ttf')
 }
 
 *{
@@ -15,7 +15,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url('../assets/login2.png');
+    background-image: url('https://github.com/nathrizandi/hciLab/blob/main/assets/login2.png?raw=true');
     background-position: center;
     background-size: cover;
 }
@@ -112,6 +112,22 @@ input{
                    0 0 80px  #fff,
                    0 0 120px  #fff,
                    0 0 160px #fff;
+  }
+
+  .login_text{
+    font-size: small;
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left:17%;
+  }
+  
+  .login_link{
+    font-size: small;
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left:26%;
   }
 
   @media screen and (max-width: 1025px){
