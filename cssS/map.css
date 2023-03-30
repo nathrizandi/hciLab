@@ -3,7 +3,7 @@
     font-family: 'HYWenHei 85W';
     font-style: normal;
     font-weight: normal;
-    src: local('HYWenHei 85W'), url('../assets/zhcn.woff') format('woff');
+    src: local('HYWenHei 85W'), url('https://github.com/nathrizandi/hciLab/blob/main/assets/zhcn.woff') format('woff');
 }
 
 html, body {
