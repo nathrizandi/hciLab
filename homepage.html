@@ -5,29 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./cssS/homepageStyle.css">
 
-    <title>Homepage</title>
+    <title>Home Page</title>
 </head>
 
 <body>
     <div class="home-background" style="background-image: url('./assets/images/homepage.png');"></div>
 
-    <div class="flex-row justify-between top-layer py-sm px-md">
+    <div class="flex-row justify-between top-layer py-sm px-md uppercase">
         <div>
             <img src="./assets/images/logo.png" alt="">
         </div>
-        <div class="flex-row link gap-x-lg text-md">
+        <div class="flex-row link gap-x-lg text-lg">
             <a href="./homepage.html" class="selected">home</a>
-            <a href="./character.html">characters</a>
+            <a href="./character_mondstadt.html">characters</a>
             <a href="./map.html">maps - tevyat</a>
-            <a href="./aboutus.html">about game</a>
-            <a href="./index.html">log out</a>
+            <a href="./about.html">about game</a>
+            <a href="./login.html">log out</a>
         </div>
         <div>
-            <button class="text-md">Download</button>
+            <button class="text-md uppercase" href="https://genshin.hoyoverse.com/en/">Download</button>
         </div>
     </div>
+
+    <h2 class="top-layer" style="position: absolute; margin-top: 490px; font-size: 30pt; color: white; margin-left: 80px; text-shadow: 0px 9px 14px #000000">An Epic Fantasy Adventure</h2>
+        
+    </label>
 
     <div style="margin-top: 35%; margin-bottom: 35%;"></div>
 
@@ -53,7 +58,7 @@
         </div>
     </div>
 
-    <div id="toggleDehya">
+    <div id="toggleDehya" style="display: block;">
         <div class="home-background" style="background-image: url('./assets/images/homepage_2.png');"></div>
     
         <div class="flex-row top-layer">
@@ -63,7 +68,7 @@
             <div class="flex-col pr-md">
                 <div class="flex-row">
                     <div>
-                        <h1>dehya</h1>
+                        <h1 class="uppercase">dehya</h1>
                     </div>
                     <div>
                         <img src="./assets/images/pyro.png" alt="">
@@ -76,6 +81,7 @@
                     <div id="dehya_icon">
                         <img src="./assets/images/dehya_icon.png" alt="" style="opacity: 1.0;">
                     </div>
+                    <div class="px-sm"></div>
                     <div id="mika_icon">
                         <img src="./assets/images/mika_icon.png" alt="" style="opacity: 0.5;">
                     </div>
@@ -84,19 +90,85 @@
         </div>
     </div>
 
-    <div class="jumbotron top-layer"></div>
-
-    <!-- <div id="toggleDehya"> -->
-        <div class="home-background" style="background-color: black;"></div>
+    <div id="toggleMika" style="display: none;">
+        <div class="home-background" style="background-image: url('./assets/images/homepage_2.png');"></div>
     
         <div class="flex-row top-layer">
+            <div class="pt-2xl">
+                <img src="./assets/images/mika.png" alt="">
+            </div>
             <div class="flex-col pr-md">
                 <div class="flex-row">
-                    <img src="./assets/images/credits.png" alt="">
+                    <div>
+                        <h1 class="uppercase">mika</h1>
+                    </div>
+                    <div>
+                        <img src="./assets/images/cryo.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h5>A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.</h5>
+                </div>
+                <div class="flex-row">
+                    <div id="dehya_icon">
+                        <img src="./assets/images/dehya_icon.png" alt="" style="opacity: 0.5;">
+                    </div>
+                    <div class="px-sm"></div>
+                    <div id="mika_icon">
+                        <img src="./assets/images/mika_icon.png" alt="" style="opacity: 1.0;">
+                    </div>
                 </div>
             </div>
         </div>
-    <!-- </div> -->
+    </div>
+
+    <div class="jumbotron2 top-layer"></div>
+
+    <div class="before_footer">
+        <div id="new-weapon" style="display: block;">
+            <div id="new_weapon" class="flex-col justify-center top-layer relative">
+                <h2 class="uppercase pt-3xl">new weapon</h2>
+                <div class="py-sm"></div>
+                <img src="./assets/images/new_weapon.png" alt="">
+            </div>
+            <div class="flex-row justify-center gap-x-lg">
+                <h6 id="toggle-new-weapon" class="capitalize blue-shadow">new weapon</h6>
+                <h6 id="toggle-windblume" class="capitalize">windblume's breath</h6>
+                <h6 id="toggle-other-version-event" class="capitalize">other version event</h6>
+            </div>
+        </div>
+        <div id="windblume" style="display: none;">
+            <div class="flex-col justify-center top-layer relative">
+                <h2 class="uppercase pt-3xl">windblume' s breath</h2>
+                <div class="py-sm"></div>
+                <img src="./assets/images/windblume.png" alt="">
+            </div>
+            <div class="flex-row justify-center gap-x-lg">
+                <h6 id="toggle-new-weapon" class="capitalize">new weapon</h6>
+                <h6 id="toggle-windblume" class="capitalize blue-shadow">windblume's breath</h6>
+                <h6 id="toggle-other-version-event" class="capitalize">other version event</h6>
+            </div>
+        </div>
+        <div id="other-version-event" style="display: none;">
+            <div class="flex-col justify-center top-layer relative">
+                <h2 class="uppercase pt-3xl">other version event</h2>
+                <div class="py-sm"></div>
+                <img src="./assets/images/other_events.png" alt="">
+            </div>
+            <div class="flex-row justify-center gap-x-lg">
+                <h6 id="toggle-new-weapon" class="capitalize">new weapon</h6>
+                <h6 id="toggle-windblume" class="capitalize">windblume's breath</h6>
+                <h6 id="toggle-other-version-event" class="capitalize blue-shadow">other version event</h6>
+            </div>
+        </div>
+    </div>
+
+    <footer class="flex-col top-layer relative" style="margin-top: 1500px; padding-top: 20px; padding-bottom: 10px;">
+        <img src="./assets/images/logo.png" alt="" width="15%">
+        <img src="./assets/images/teen_logo.png" alt="" width="7%">
+        <p style="color: white; text-align: center;">"PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br/>Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All<br/>other trademarks are the property of their respective owners.</p>
+        <p style="color: white; text-align: center;">Copyright © COGNOSPHERE. All Rights Reserved.<br/>modified by NathasyaRizandi | CatherineOlivia<br/>references credit | https://linktr.ee/credit_reference</p>
+    </footer>
 </body>
 
 </html>
@@ -104,8 +176,45 @@
 <script type="text/javascript">
     var dehya_icon = document.getElementById("#dehya_icon");
     var mika_icon = document.getElementById("#mika_icon");
+    var toggleDehya = document.getElementById("#toggleDehya");
+    var toggleMika = document.getElementById("#toggleMika");
 
+    var new_weapon = document.getElementById("#new-weapon");
+    var windblume = document.getElementById("#windblume");
+    var other_version_event = document.getElementById("#other-version-event");
+    var toggle_new_weapon = document.getElementById("#toggle-new-weapon");
+    var toggle_windblume = document.getElementById("#toggle-windblume");
+    var toggle_other_version_event = document.getElementById("#toggle-other-version-event");
 
+    dehya_icon.click(function () {
+        toggleDehya.style.display = "block";
+        toggleMika.style.display = "none";
 
+        console.log("Toggle Dehya");
+    });
 
+    mika_icon.click(function () {
+        toggleDehya.style.display = "none";
+        toggleMika.style.display = "block";
+
+        console.log("Toggle Mika");
+    });
+
+    toggle_new_weapon.click(function () {
+        new_weapon.style.display = "block";
+        windblume.style.display = "none";
+        other_version_event.style.display = "none";
+    });
+    
+    toggle_windblume.click(function () {
+        new_weapon.style.display = "none";
+        windblume.style.display = "block";
+        other_version_event.style.display = "none";
+    });
+    
+    toggle_other_version_event.click(function () {
+        new_weapon.style.display = "none";
+        windblume.style.display = "none";
+        other_version_event.style.display = "block";
+    });
 </script>

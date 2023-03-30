@@ -13,7 +13,6 @@ html, body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 .home-background {
     height: 100vh;
     width: 100vw;
@@ -61,8 +60,12 @@ html, body {
     column-gap: 124px;
 }
 
-.link {
+.uppercase {
     text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
 
 .link a {
@@ -79,9 +82,18 @@ html, body {
     font-size: 14pt;
 }
 
+.text-lg {
+    font-size: 16pt;
+}
+
 .px-md {
     padding-left: 48px;
     padding-right: 48px;
+}
+
+.px-sm {
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .px-xl {
@@ -94,6 +106,11 @@ html, body {
     padding-bottom: 24px;
 }
 
+.py-md {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 button {
     padding-top: 16px;
     padding-bottom: 12px;
@@ -103,7 +120,6 @@ button {
     border-radius: 14px;
     color: white;
     font-weight: 600;
-    text-transform: uppercase;
     font-family: 'HYWenHei 85W';
     background-color: black;
 }
@@ -147,6 +163,14 @@ p {
     filter: blur(30px);
 }
 
+.jumbotron2 {
+    width: 100vw;
+    height: 40vh;
+    background-color: #D37F63;
+    position: absolute;
+    filter: blur(30px);
+}
+
 .pt-lg {
     padding-top: 100px;
 }
@@ -155,6 +179,9 @@ p {
     padding-top: 210px;
 }
 
+.pt-3xl {
+    padding-top: 512px;
+}
 
 h5 {
     font-size: 18pt;
@@ -167,8 +194,46 @@ h5 {
 }
 
 h1 {
-    text-transform: uppercase;
     font-size: 100pt;
     text-shadow: 0px 0px 40px #D37F63;
     color: #ffffff;
+    font-family: 'HYWenHei 85W';
+}
+
+h2 {
+    font-size: 50pt;
+    color: #1F8DA5;
+    font-family: 'HYWenHei 85W';
+}
+
+h6 {
+    font-size: 21pt;
+    color: #1F8DA5;
+    font-family: 'HYWenHei 85W';
+}
+
+.blue-shadow {
+    text-shadow: 0 0 75px #1F8DA5;
+}
+
+.before_footer {
+    height: auto;
+    width: 100vw;
+    background-color: #E5F7F8;
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+h4 {
+    font-size: 30pt;
+    color: #1F8DA5;
+    font-family: 'HYWenHei 85W';
+}
+
+footer {
+    background-color: #000000;
+    height: auto;
 }

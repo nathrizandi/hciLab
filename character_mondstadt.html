@@ -1,51 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character Mondstadt</title>
-    <link rel="stylesheet" href="cssS/character_MondstadtStyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div class="container">
-        <!-- <nav> -->
-            <img src="assets/Mondstadt/mondstadtbg.png" alt="" class="background">
-            <div class="button_character">
-                <a href="#Lisa">
-                    <img src="assets/Mondstadt/mondstat1.png" alt="">
-                </a>
-                <a href="#Klee">
-                    <img src="assets/Mondstadt/mondstadt2.png" alt="">
-                </a>
-                <a href="#Jean">
-                    <img src="assets/Mondstadt/mondstadt3.png" alt="">
-                </a>
-                <a href="#Bennett">
-                    <img src="assets/Mondstadt/mondstadt4.png" alt="">
-                </a>
-                <a href="#Albedo">
-                    <img src="assets/Mondstadt/monstadt5.png" alt="">
-                </a>
-            </div>
-        <!-- </nav> -->
 
+    <link rel="stylesheet" href="./cssS/character_MondstadtStyle.css">
+
+    <title>Mondstadt Character Page</title>
+</head>
+
+<body>
+    <img src="./assets/images/mondstadt.png" alt="" style="position: absolute;" width="100%">
+
+    <div class="flex-row justify-between top-layer py-sm px-md uppercase">
+        <div>
+            <img src="./assets/images/logo.png" alt="">
+        </div>
+        <div class="flex-row link gap-x-lg text-lg">
+            <a href="./homepage.html">home</a>
+            <a href="./character_mondstadt.html" class="selected">characters</a>
+            <a href="./map.html">maps - tevyat</a>
+            <a href="./about.html">about game</a>
+            <a href="./login.html">log out</a>
+        </div>
+        <div>
+            <button class="text-md uppercase" href="https://genshin.hoyoverse.com/en/">Download</button>
+        </div>
     </div>
-    <div id="Lisa" class="Lisa">
-        <img src="assets/Mondstadt/lisa_1.png" alt="">
+
+    <div class="jumbotron second-layer" style="margin-top: 35px;"></div>
+
+    <div class="flex-row justify-center gap-x-lg top-layer" style="padding-top: 20px; margin-top: 60px;">
+        <div class="flex-col">
+            <img src="./assets/images/point.png" alt="">
+            <p>Mondstadts</p>
+        </div>
+        <div class="flex-col">
+            <img src="./assets/images/point.png" alt="">
+            <p>Liyue</p>
+        </div>
+        <div class="flex-col">
+            <img src="./assets/images/point.png" alt="">
+            <p>Inazuma</p>
+        </div>
+        <div class="flex-col">
+            <img src="./assets/images/point.png" alt="">
+            <p>Sumeru</p>
+        </div>
     </div>
-    <div id="Klee" class="Klee">
-        <img src="assets/Mondstadt/klee.png" alt="">
+
+    <label class="flex-col justify-center top-layer relative map-header" style="color: white; padding-bottom: 12px; padding-top: 12px;">Mondstadts Characters</label>
+
+    <div class="top-layer relative flex-row justify-center gap-x-md">
+        <img src="./assets/images/avatar_mondstadt-1.png" alt="">
+        <img src="./assets/images/avatar_mondstadt-2.png" alt="">
+        <img src="./assets/images/avatar_mondstadt-3.png" alt="">
+        <img src="./assets/images/avatar_mondstadt-4.png" alt="">
+        <img src="./assets/images/avatar_mondstadt-5.png" alt="">
     </div>
-    <div id="Jean" class="Jean">
-        <img src="assets/Mondstadt/jean.png" alt="">
+
+    <div class="character_detail relative top-layer" style="background: rgb(229,247,248); background: linear-gradient(180deg, rgba(229,247,248,1) 0%, rgba(255,255,255,1) 22%, rgba(138,128,174,1) 100%); margin-top: 150px;">
+        <div class="flex-row" style="padding-top: 120px;">
+            <img src="./assets/images/lisa.png" alt="">
+            <div class="flex-cols justify-end">
+                <h2 style="text-align: right; color: #423294; margin: 0; ">LISA</h2>
+                <p style="color: #423294; text-align: right; margin: 0;">The Librarian</p>
+                <div class="flex-rows" style="text-align: right;">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                </div>
+                <p style="color: #3D2E88; text-align: right;">She is an intellectual witch who can never get enough naps. As the<br/>Librarian of the Knights of Favonius, Lisa is smart in that she always<br/>knows exactly what to do with whatever troubles her. As much as<br/>she loves her sleep, she still manages to keep everything under</p>
+                <div class="flex-row" style="text-align: right;">
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/electro.png" alt="">
+                        <p style="color: #3D2E88;">Electro</p>
+                    </div>
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/catalyst.png" alt="">
+                        <p style="color: #3D2E88;">Catalyst</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row justify-between" style="padding-left: 200px; padding-right: 450px; opacity: 20%;">
+            <h2 style="font-size: 40px; color: white; margin-top: 50px;">Mondstadt Character</h2>
+            <img src="./assets/images/avatar_mondstadt-1.png" alt="" width="10%">
+        </div>
     </div>
-    <div id="Bennett" class="Bennett">
-        <img src="assets/Mondstadt/bennett.png" alt="">
+    <div class="character_detail relative top-layer" style="background: rgb(229,247,248); background: linear-gradient(180deg, rgba(229,247,248,1) 0%, rgba(255,255,255,1) 22%, rgba(209,57,34,1) 100%);">
+        <div class="flex-row" style="padding-top: 120px;">
+            <img src="./assets/images/klee.png" alt="">
+            <div class="flex-cols justify-end">
+                <h2 style="text-align: right; color: #D13922; margin: 0; ">KLEE</h2>
+                <p style="color: #D13922; text-align: right; margin: 0;">Spark Knight</p>
+                <div class="flex-rows" style="text-align: right;">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                </div>
+                <p style="color: #D13922; text-align: right;">Knights of Favonius Spark Knight! Forever with a bang and a flash! And then<br/>disappearing from the stern gaze of Acting Grand Master Jean. Sure, time in<br/>solitary confinement gives lots of time to think about new gunpowder formulas...<br/>But it'd still be better to not be in solitary in the first place.</p>
+                <div class="flex-row" style="text-align: right;">
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/pyro-2.png" alt="">
+                        <p style="color: #D13922;">Pyro</p>
+                    </div>
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/catalyst.png" alt="">
+                        <p style="color: #D13922;">Catalyst</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row justify-between" style="padding-left: 200px; padding-right: 350px; opacity: 20%;">
+            <h2 style="font-size: 40px; color: white; margin-top: 50px;">Mondstadt Character</h2>
+            <img src="./assets/images/avatar_mondstadt-2.png" alt="" width="10%">
+        </div>
     </div>
-    <div id="Albedo" class="Albedo">
-        <img src="assets/Mondstadt/albedo.png" alt="">
+    <div class="character_detail relative top-layer" style="background: rgb(229,247,248); background: linear-gradient(180deg, rgba(229,247,248,1) 0%, rgba(255,255,255,1) 22%, rgba(42,97,144,1) 100%);">
+        <div class="flex-row" style="padding-top: 120px;">
+            <img src="./assets/images/jean.png" alt="">
+            <div class="flex-cols justify-end">
+                <h2 style="text-align: right; color: #2A6190; margin: 0; ">JEAN</h2>
+                <p style="color: #2A6190; text-align: right; margin: 0;">Acting Grand Master</p>
+                <div class="flex-rows" style="text-align: right;">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                </div>
+                <p style="color: #2A6190; text-align: right;">As the Acting Grand Master of the Knights, Jean has always been<br/>devoted to her duties and maintaining peace in Mondstadt. She had<br/>taken precautions long before the onset of Stormterror's assault, and<br/>she will guard Mondstadt with her life as always.</p>
+                <div class="flex-row" style="text-align: right;">
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/anemo.png" alt="">
+                        <p style="color: #2A6190;">Anemo</p>
+                    </div>
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/sword.png" alt="">
+                        <p style="color: #2A6190;">Sword</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row justify-between" style="padding-left: 200px; padding-right: 450px; opacity: 20%;">
+            <h2 style="font-size: 40px; color: white; margin-top: 50px;">Mondstadt Character</h2>
+            <img src="./assets/images/avatar_mondstadt-3.png" alt="" width="10%">
+        </div>
     </div>
+    <div class="character_detail relative top-layer" style="background: rgb(229,247,248); background: linear-gradient(180deg, rgba(229,247,248,1) 0%, rgba(255,255,255,1) 22%, rgba(216,154,40,1) 100%);">
+        <div class="flex-row" style="padding-top: 120px;">
+            <img src="./assets/images/bennett.png" alt="">
+            <div class="flex-cols justify-end">
+                <h2 style="text-align: right; color: #D89A28; margin: 0; ">BENNETT</h2>
+                <p style="color: #D89A28; text-align: right; margin: 0;">Leader of Benny’s Adventure Team</p>
+                <div class="flex-rows" style="text-align: right;">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                </div>
+                <p style="color: #D89A28; text-align: right;">One of the few young adventurers of the Mondstadt Adventurers' Guild, he is always<br/>plagued with inexplicable bad luck.He is the only active member of his own adventure<br/>group, known as "Benny's Adventure Team," after all the other members decided to "take<br/>leave" following a series of unfortunate incidents. As a result, the team is currently on the<br/>verge of being dissolved.Being unable to break the poor boy's heart, Katheryne of the<br/>Adventurers' Guild has kept "Benny's Adventure Team" on the books, whilst also hiding<br/>from him the fact that all the other members have long since officially left the team.</p>
+                <div class="flex-row" style="text-align: right;">
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/pyro-2.png" alt="">
+                        <p style="color: #D89A28;">Pyro</p>
+                    </div>
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/sword.png" alt="">
+                        <p style="color: #D89A28;">Sword</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row justify-between" style="padding-left: 200px; padding-right: 250px; opacity: 20%;">
+            <h2 style="font-size: 40px; color: white; margin-top: 50px;">Mondstadt Character</h2>
+            <img src="./assets/images/avatar_mondstadt-4.png" alt="" width="10%">
+        </div>
+    </div>
+    <div class="character_detail relative top-layer" style="background: rgb(229,247,248); background: linear-gradient(180deg, rgba(229,247,248,1) 0%, rgba(255,255,255,1) 22%, rgba(138,128,174,1) 100%);">
+        <div class="flex-row" style="padding-top: 120px;">
+            <img src="./assets/images/albedo.png" alt="">
+            <div class="flex-cols justify-end">
+                <h2 style="text-align: right; color: #423294; margin: 0; ">ALBEDO</h2>
+                <p style="color: #423294; text-align: right; margin: 0;">Chief Alchemist of the Knights of Favonius</p>
+                <div class="flex-rows" style="text-align: right;">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                    <img src="./assets/images/star.png" alt="">
+                </div>
+                <p style="color: #3D2E88; text-align: right;">Albedo — an alchemist based in Mondstadt, in the service of the Knights of<br/>Favonius."Genius," "Kreideprinz," or "Captain of the Investigation Team"... Such titles and<br/>honors are of no consequence to him when there is so much more research to conduct. The<br/>pursuit of fortune and connections cannot hold a candle to his heart's desire — acquiring<br/>the limitless, obscure knowledge left behind by previous generations of scholars.</p>
+                <div class="flex-row" style="text-align: right;">
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/geo.png" alt="">
+                        <p style="color: #3D2E88;">Geo</p>
+                    </div>
+                    <div class="flex-col" style="align-items: center;">
+                        <img src="./assets/images/sword.png" alt="">
+                        <p style="color: #3D2E88;">Sword</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row justify-between" style="padding-left: 200px; padding-right: 200px; opacity: 20%;">
+            <h2 style="font-size: 40px; color: white; margin-top: 50px;">Mondstadt Character</h2>
+            <img src="./assets/images/avatar_mondstadt-5.png" alt="" width="10%">
+        </div>
+    </div>
+
+    <footer class="flex-col top-layer relative" style="padding-top: 20px; padding-bottom: 10px;">
+        <img src="./assets/images/logo.png" alt="" width="15%">
+        <img src="./assets/images/teen_logo.png" alt="" width="7%">
+        <p style="color: white; text-align: center;">"PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br/>Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All<br/>other trademarks are the property of their respective owners.</p>
+        <p style="color: white; text-align: center;">Copyright © COGNOSPHERE. All Rights Reserved.<br/>modified by NathasyaRizandi | CatherineOlivia<br/>references credit | https://linktr.ee/credit_reference</p>
+    </footer>
 </body>
+
 </html>
+
+<script type="text/javascript">
+    var dehya_icon = document.getElementById("#dehya_icon");
+    var mika_icon = document.getElementById("#mika_icon");
+    var toggleDehya = document.getElementById("#toggleDehya");
+    var toggleMika = document.getElementById("#toggleMika");
+
+    var new_weapon = document.getElementById("#new-weapon");
+    var windblume = document.getElementById("#windblume");
+    var other_version_event = document.getElementById("#other-version-event");
+    var toggle_new_weapon = document.getElementById("#toggle-new-weapon");
+    var toggle_windblume = document.getElementById("#toggle-windblume");
+    var toggle_other_version_event = document.getElementById("#toggle-other-version-event");
+
+    dehya_icon.click(function () {
+        toggleDehya.style.display = "block";
+        toggleMika.style.display = "none";
+
+        console.log("Toggle Dehya");
+    });
+
+    mika_icon.click(function () {
+        toggleDehya.style.display = "none";
+        toggleMika.style.display = "block";
+
+        console.log("Toggle Mika");
+    });
+
+    toggle_new_weapon.click(function () {
+        new_weapon.style.display = "block";
+        windblume.style.display = "none";
+        other_version_event.style.display = "none";
+    });
+    
+    toggle_windblume.click(function () {
+        new_weapon.style.display = "none";
+        windblume.style.display = "block";
+        other_version_event.style.display = "none";
+    });
+    
+    toggle_other_version_event.click(function () {
+        new_weapon.style.display = "none";
+        windblume.style.display = "none";
+        other_version_event.style.display = "block";
+    });
+</script>
