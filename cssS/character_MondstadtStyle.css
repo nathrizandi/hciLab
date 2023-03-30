@@ -175,6 +175,12 @@ p {
     color: #5BAAB7;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+  }
+
 .jumbotron {
     width: 100vw;
     height: 15vh;
