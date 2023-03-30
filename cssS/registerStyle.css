@@ -1,6 +1,6 @@
 @font-face {
     font-family: tahoma_genshin;
-    src: url('../assets/Tahoma Regular font.ttf');
+    src: url('https://github.com/nathrizandi/hciLab/blob/main/assets/Tahoma Regular font.ttf');
 }
 
 *{
@@ -14,7 +14,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url('../assets/register.png');
+    background-image: url('https://github.com/nathrizandi/hciLab/blob/main/assets/register.png?raw=true');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -134,6 +134,20 @@ p{
                  0 0 80px  #fff,
                  0 0 120px  #fff,
                  0 0 160px #fff;
+}
+
+.login_text{
+  position: absolute;
+  display: flex;
+  top: 87%;
+  left:53%;
+}
+
+.login_link{
+  position: absolute;
+  display: flex;
+  top: 74%;
+  left:60%;
 }
 
 @media screen and (max-width: 1025px){
