@@ -2,6 +2,8 @@ const form = document.getElementById('login-form');
 const emailInput1 = document.getElementById('email1');
 const passwordInput1 = document.getElementById('password1');
 
+console.log("test")
+
 form.addEventListener('submit', e =>{
     e.preventDefault();
     validateInputs();

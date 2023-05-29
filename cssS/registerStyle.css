@@ -1,6 +1,6 @@
 @font-face {
     font-family: tahoma_genshin;
-    src: url('https://github.com/nathrizandi/hciLab/blob/main/assets/Tahoma Regular font.ttf');
+    src: url('https://github.com/nathrizandi/hciLab/blob/last-updated/assets/Tahoma Regular font.ttf');
 }
 
 *{
@@ -14,7 +14,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://github.com/nathrizandi/hciLab/blob/main/assets/register.png?raw=true');
+    background-image: url('https://github.com/nathrizandi/hciLab/blob/last-updated/assets/register.png?raw=true?raw=true');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -94,7 +94,7 @@ input{
   background-color: transparent;
   /* border: none; */
   position: absolute;
-  top: 0%;
+  top: 8%;
   left: 86%;
 }
 
@@ -109,18 +109,18 @@ p{
   font-size: 85%;
   font-family: tahoma_genshin;
   text-align: left;
-  margin-top: -6%;
+  margin-top: -46%;
 }
 
 .btn{
   position:absolute;
   display: flex;
-  top: 82.5%;
-  left: 64%;
+  top: 79.5%;
+  left: 63%;
   width: 20%;
   height: 8%;
   font-family: tahoma_genshin;
-  font-size: larger;
+  font-size: 40px;
   color: white;
   background-color: transparent;
   border: none;
@@ -139,15 +139,14 @@ p{
 .login_text{
   position: absolute;
   display: flex;
-  top: 87%;
-  left:53%;
+  top: 10%;
 }
 
 .login_link{
   position: absolute;
   display: flex;
-  top: 74%;
-  left:60%;
+  top: 65%;
+  left:55%;
 }
 
 @media screen and (max-width: 1025px){
